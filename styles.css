@@ -1,0 +1,38 @@
+body, h1 {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body {
+  color: #2f80ed;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: #FFFFFF;
+  width: 1280px;
+  height: 760px;
+}
+
+.pic {
+    width="520px";
+    margin: 110px 380px 10px;
+}
+
+.error {
+    margin: 0 430px 280px;
+    height: 140px;
+    width: 420px;
+}
+
+.error:hover::after {
+    content: attr(data-title);
+    margin-top: 22px;
+}
+
+h1 {
+    font-size: 130px;
+}
+
+a {
+    color: #2f80ed;
+}
